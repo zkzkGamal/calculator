@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>zkzk</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="calculator">
+      <h1>zkzk</h1>
+
+      <div class="display" id="display">0</div>
+
+      <div class="keys" id="keys">
+        <button type="button" data-action="clear" class="danger">C</button>
+        <button type="button" data-action="backspace">⌫</button>
+        <button type="button" data-action="append" data-char="(">(</button>
+        <button type="button" data-action="append" data-char=")">)</button>
+        <button type="button" data-action="evaluate" class="equals">=</button>
+
+        <button type="button" data-action="append" data-char="7">7</button>
+        <button type="button" data-action="append" data-char="8">8</button>
+        <button type="button" data-action="append" data-char="9">9</button>
+        <button type="button" data-action="append" data-char="/">/</button>
+        <button type="button" data-action="append" data-char="**">^</button>
+
+        <button type="button" data-action="append" data-char="4">4</button>
+        <button type="button" data-action="append" data-char="5">5</button>
+        <button type="button" data-action="append" data-char="6">6</button>
+        <button type="button" data-action="append" data-char="*">*</button>
+        <button type="button" data-action="append" data-char="%">%</button>
+
+        <button type="button" data-action="append" data-char="1">1</button>
+        <button type="button" data-action="append" data-char="2">2</button>
+        <button type="button" data-action="append" data-char="3">3</button>
+        <button type="button" data-action="append" data-char="-">-</button>
+        <button type="button" data-action="append" data-char="//">//</button>
+
+        <button type="button" data-action="append" data-char="0">0</button>
+        <button type="button" data-action="append" data-char=".">.</button>
+        <button type="button" data-action="append" data-char="(">(</button>
+        <button type="button" data-action="append" data-char=")">)</button>
+        <button type="button" data-action="append" data-char="+">+</button>
+      </div>
+    </main>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
